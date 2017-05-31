@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GHLobbySystem">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAACAAACACAAAAAAAAAAAAACAAAARBAEAAACA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Lobby System\GHLobbySystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GHLobbyTimer">
+    <Position X="2.75" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Lobby System\GHLobbyTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAgAABAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HeartRun\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndSceneManager">
+    <Position X="10.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\After Game Scenes\EndSceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndSceneScript">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\After Game Scenes\EndSceneScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicNoteLogic">
+    <Position X="7.75" Y="13.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACQAAABAACAAAAAQAAAAQAAAgEEFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Game Scene\MusicNoteLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataTransfer">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgAiAAAACAAAgQAAEQAACAAAAhAAgIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Data Transfer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColourChange">
+    <Position X="7.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAIAAAAEAAACQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Game Scene\ColourChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GHHighScore">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAEACAAAAAAAgEQAAAAAAAAQAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\After Game Scenes\GHHighScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GHScoreInfo">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAgAwAAABAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\After Game Scenes\GHScoreInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeartTutorial">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYAAAAAgCACEAAkAKAAAAYQIAgAAAAABAAMAQAAABA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Tutorials\HeartTutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HowToPlayScript">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAACAAAAAAAAAAAAgCAAAIBAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Tutorials\HowToPlayScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicBarLogic">
+    <Position X="7.75" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACSIAICAAiAIAEQgAAgAAAMAIAAEAAAAAAGAgAQAAQA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Game Scene\MusicBarLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicNoteSpawner">
+    <Position X="7.75" Y="8" Width="1.75" />
+    <NestedTypes>
+      <Enum Name="MusicNoteSpawner.COMBO_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\CPRevive\Game Scene\MusicNoteSpawner.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gEQAAIQAACAAAAAAAAAACgQBIAAAhiAAgAAAIAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Game Scene\MusicNoteSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialScript">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAACAAAAAEAAAAAAAAAAAAAAAAAAQACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Tutorials\TutorialScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GHGameLogic">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAYAAAAAACEAAIABCAAAAAAQAAAAIAAgAAQAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Game Scene\GHGameLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextScript">
+    <Position X="7.75" Y="23.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\Game Scene\TextScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GHEndGameScript">
+    <Position X="10.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>wAQBAAAAACAACAAAUgEAAAACABAIAACBAAAAAAAEAII=</HashCode>
+      <FileName>Assets\Scripts\CPRevive\After Game Scenes\GHEndGameScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

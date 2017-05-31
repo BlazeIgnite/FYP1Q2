@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 9e2a00bf3440a2b4ab04070dd658892b
+timeCreated: 1491189029
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: block_snow_0
+    21300002: block_snow_1
+    21300004: block_snow_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: block_snow_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 53
+        width: 381
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 180.5, y: 185}
+        - {x: 160.5, y: 185}
+        - {x: 158.5, y: 184}
+        - {x: 151.5, y: 184}
+        - {x: 150.5, y: 183}
+        - {x: 134.5, y: 183}
+        - {x: 133.5, y: 184}
+        - {x: 130.5, y: 185}
+        - {x: -10.5, y: 185}
+        - {x: -17.5, y: 184}
+        - {x: -23.5, y: 183}
+        - {x: -31.5, y: 182}
+        - {x: -32.5, y: 183}
+        - {x: -38.5, y: 185}
+        - {x: -165.5, y: 185}
+        - {x: -169.5, y: 183}
+        - {x: -175.5, y: 182}
+        - {x: -178.5, y: 180}
+        - {x: -183.5, y: 175}
+        - {x: -185.5, y: 170}
+        - {x: -186.5, y: 167}
+        - {x: -187.5, y: 162}
+        - {x: -188.5, y: 155}
+        - {x: -188.5, y: 137}
+        - {x: -190.5, y: 133}
+        - {x: -190.5, y: 89}
+        - {x: -189.5, y: 85}
+        - {x: -190.5, y: 84}
+        - {x: -190.5, y: 63}
+        - {x: -188.5, y: 58}
+        - {x: -185.5, y: 54}
+        - {x: -181.5, y: 52}
+        - {x: -181.5, y: -173}
+        - {x: -179.5, y: -178}
+        - {x: -173.5, y: -185}
+        - {x: 190.5, y: -185}
+        - {x: 190.5, y: 182}
+        - {x: 184.5, y: 183}
+    - name: block_snow_1
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 53
+        width: 363
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 171.5, y: 185}
+        - {x: 151.5, y: 185}
+        - {x: 149.5, y: 184}
+        - {x: 142.5, y: 184}
+        - {x: 141.5, y: 183}
+        - {x: 125.5, y: 183}
+        - {x: 124.5, y: 184}
+        - {x: 122.5, y: 184}
+        - {x: 120.5, y: 185}
+        - {x: -19.5, y: 185}
+        - {x: -20.5, y: 184}
+        - {x: -26.5, y: 184}
+        - {x: -27.5, y: 183}
+        - {x: -32.5, y: 183}
+        - {x: -33.5, y: 182}
+        - {x: -40.5, y: 182}
+        - {x: -41.5, y: 183}
+        - {x: -43.5, y: 183}
+        - {x: -47.5, y: 185}
+        - {x: -174.5, y: 185}
+        - {x: -178.5, y: 183}
+        - {x: -181.5, y: 183}
+        - {x: -181.5, y: -185}
+        - {x: 181.5, y: -185}
+        - {x: 181.5, y: 182}
+        - {x: 175.5, y: 183}
+    - name: block_snow_2
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 53
+        width: 381
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 181.5, y: 53}
+        - {x: 185.5, y: 54}
+        - {x: 188.5, y: 58}
+        - {x: 190.5, y: 63}
+        - {x: 190.5, y: 84}
+        - {x: 189.5, y: 88}
+        - {x: 190.5, y: 89}
+        - {x: 190.5, y: 133}
+        - {x: 188.5, y: 137}
+        - {x: 188.5, y: 155}
+        - {x: 187.5, y: 162}
+        - {x: 186.5, y: 167}
+        - {x: 185.5, y: 170}
+        - {x: 183.5, y: 175}
+        - {x: 178.5, y: 180}
+        - {x: 175.5, y: 182}
+        - {x: 169.5, y: 183}
+        - {x: 165.5, y: 185}
+        - {x: 38.5, y: 185}
+        - {x: 35.5, y: 184}
+        - {x: 31.5, y: 182}
+        - {x: 23.5, y: 183}
+        - {x: 11.5, y: 184}
+        - {x: 10.5, y: 185}
+        - {x: -130.5, y: 185}
+        - {x: -134.5, y: 183}
+        - {x: -150.5, y: 183}
+        - {x: -151.5, y: 184}
+        - {x: -158.5, y: 184}
+        - {x: -160.5, y: 185}
+        - {x: -180.5, y: 185}
+        - {x: -184.5, y: 183}
+        - {x: -190.5, y: 182}
+        - {x: -190.5, y: -185}
+        - {x: 173.5, y: -185}
+        - {x: 179.5, y: -178}
+        - {x: 181.5, y: -173}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: d4db26102bb35a04799c28bd123e8425
+timeCreated: 1491299685
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: block_ocean_0
+    21300002: block_ocean_1
+    21300004: block_ocean_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 2500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: block_ocean_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 91
+        width: 370
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -179, y: 184}
+        - {x: -181, y: 183}
+        - {x: -185, y: 178}
+        - {x: -185, y: -180}
+        - {x: -180, y: -184}
+        - {x: 185, y: -184}
+        - {x: 185, y: 184}
+    - name: block_ocean_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 91
+        width: 363
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -181.5, y: 184}
+        - {x: -181.5, y: -184}
+        - {x: 181.5, y: -184}
+        - {x: 181.5, y: 184}
+    - name: block_ocean_2
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 90
+        width: 370
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 179, y: 184.5}
+        - {x: -185, y: 184.5}
+        - {x: -185, y: -184.5}
+        - {x: 179, y: -184.5}
+        - {x: 185, y: -179.5}
+        - {x: 185, y: 180.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
