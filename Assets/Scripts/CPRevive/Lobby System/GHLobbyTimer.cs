@@ -16,7 +16,6 @@ public class GHLobbyTimer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         timerText = GetComponent<Text>();
-        timerText.fontSize = 40;
         lobby = GameObject.Find("LobbyController").GetComponent<GHLobbySystem>();
     }
 	

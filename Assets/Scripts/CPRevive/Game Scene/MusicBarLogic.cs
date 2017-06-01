@@ -345,14 +345,14 @@ public class MusicBarLogic : MonoBehaviour {
         }
         else if (text == s_ArrayString[1])
         {
-            // Great
+            // Good
             GO = (GameObject)Instantiate(TextPrefab[1], new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             i_Score += i_ArrayScore[1];
             i_ScoreNumbers[1]++;
             if (gameObject.GetComponent<AnimatorChanger>() != null)
             {
                 gameObject.GetComponent<AnimatorChanger>().ChangeAnimator(0);
-                Debug.Log("GREAT");
+                Debug.Log("GOOD");
             }
         }
         else if (text == s_ArrayString[2])

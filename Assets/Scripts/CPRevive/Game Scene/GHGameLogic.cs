@@ -119,6 +119,10 @@ public class GHGameLogic : MonoBehaviour {
 
                 // Offs the gameobject Player Absence
                 GO_PlayerGO[i].transform.GetChild(3).GetComponent<Image>().enabled = false;
+                if (GO_PlayerGO[i].transform.GetChild(4) != null)
+                    GO_PlayerGO[i].transform.GetChild(4).gameObject.SetActive(true);
+                if (GO_PlayerGO[i].transform.GetChild(5) != null)
+                    GO_PlayerGO[i].transform.GetChild(5).gameObject.SetActive(true);
             }
         }
     }

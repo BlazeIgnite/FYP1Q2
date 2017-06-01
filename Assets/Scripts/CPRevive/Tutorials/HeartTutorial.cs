@@ -24,7 +24,7 @@ public class HeartTutorial : MonoBehaviour {
 
     float f_Scaletimer;
     float f_Scale;
-    float f_ScaleSpeed;
+    float f_TextOriginalY;
 
     bool b_WarningOn;
 
@@ -60,8 +60,8 @@ public class HeartTutorial : MonoBehaviour {
         f_HandFallingspeed = 1;
         f_HandStopPosY = -101;
 
-        f_Scale = 0;
-        f_ScaleSpeed = 5;
+        f_Scale = 1;
+        f_TextOriginalY = GO_Text.transform.localPosition.y;
         f_Scaletimer = 0;
 
         b_WarningOn = true;
@@ -104,7 +104,7 @@ public class HeartTutorial : MonoBehaviour {
                 {
                     // Change the caution image to a show players how the game is to be played
                     b_WarningOn = false;
-                    GameObject.Find("Warning Image").GetComponent<Image>().enabled = false;
+                    //GameObject.Find("Warning Image").GetComponent<Image>().enabled = false;
                     for (int i = 0; i < GameObject.Find("Tutorial").transform.childCount - 1; i++)
                     {
                         GameObject.Find("Tutorial").transform.GetChild(i).GetComponent<Image>().enabled = true;
@@ -172,15 +172,12 @@ public class HeartTutorial : MonoBehaviour {
             }
             if (b_TextScale)
             {
-                f_Scale += Time.deltaTime * f_ScaleSpeed;
-                GO_Text.transform.localScale = new Vector3(f_Scale, f_Scale);
-                if (f_Scale >= 1)
+                GO_Text.transform.localPosition += new Vector3(0, f_Scale);
+                //if (f_Scale >= 1)
                 {
-                    f_Scale = 1.1f;
                     f_Scaletimer += Time.deltaTime;
-                    if (f_Scaletimer > 1)
+                    if (f_Scaletimer >  0.75f)
                     {
-                        f_Scale = 0;
                         f_Scaletimer = 0;
 
                         GameObject.Find("Tutorial Feedback Image").GetComponent<Image>().enabled = false;
@@ -190,6 +187,8 @@ public class HeartTutorial : MonoBehaviour {
 
                         GO_Hand.transform.localPosition = new Vector3(GO_Hand.transform.localPosition.x, f_HandOriginalPosY, 0);
                         f_HandFallingspeed = 1;
+
+                        GO_Text.transform.localPosition = new Vector3(GO_Text.transform.localPosition.x, f_TextOriginalY, GO_Text.transform.localPosition.z);
 
                         b_TextScale = false;
                         b_HeartFalling = true;

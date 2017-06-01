@@ -28,7 +28,7 @@ public class GHLobbySystem : MonoBehaviour {
     // Use this for initialization
     void Start() {
 
-        f_Timer = 3f;
+        f_Timer = 5f;
 
         // Gets the instances passed through Data Transfer
         dt = DataTransfer.Instance;
@@ -89,7 +89,7 @@ public class GHLobbySystem : MonoBehaviour {
             return;
 
         // Resets the timer
-        f_Timer = 3;
+        f_Timer = 5;
 
         // Changes to active
         b_ArrayPlayerActives[index] = active;
